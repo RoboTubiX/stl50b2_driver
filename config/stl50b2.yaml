@@ -1,0 +1,10 @@
+stl50b2_node:
+  ros__parameters:
+    port: "/dev/stl50b2"
+    frame_id: "laser"
+
+    clockwise: false
+    angle_offset_deg: 0.0
+
+    range_min: 0.05
+    range_max: 12.0
